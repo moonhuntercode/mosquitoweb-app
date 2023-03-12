@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Segoe UI;
+  font-size: x-large;
+  font-weight: bold;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #e3e8e8;
+  color: black;
+}
+.navbar {
+  width: 95%;
+  height: 13%;
+  background-color: #bdffe9;
+  border: 11px solid #707070;
+  display: inline-flex;
+  flex-flow: row wrap;
+  color: #008b5d;
+  /* align-content: center;
+  justify-content: space-between; */
+  /* place-content: <align-content> <justify-content>; */
+  place-content: center space-between;
+  align-items: center;
+  text-align: left;
+}
+.navbar img {
+  width: 80px;
+}
